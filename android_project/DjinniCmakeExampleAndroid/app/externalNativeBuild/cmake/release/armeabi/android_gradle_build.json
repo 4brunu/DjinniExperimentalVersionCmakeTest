@@ -1,0 +1,79 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/bruno.coelho/Developer/DjinniCmakeExample/CMakeLists.txt",
+		"/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/CMakeLists.txt",
+		"/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Applications/android-sdk-canary/cmake/bin/cmake --build /Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"djinni-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "djinni",
+			"buildCommand" : "/Applications/android-sdk-canary/cmake/bin/cmake --build /Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/armeabi --target djinni",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -DANDROID -Ddjinni_EXPORTS -isystem /Applications/android-sdk-canary/ndk-bundle/platforms/android-14/arch-arm/usr/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../../../../../deps/djinni/include  -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Applications/android-sdk-canary/ndk-bundle/platforms/android-14/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -std=c++14 -fexceptions -frtti -Wall -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -std=c++11    ",
+					"src" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/jni/djinni_main.cpp",
+					"workingDirectory" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DANDROID -Ddjinni_EXPORTS -isystem /Applications/android-sdk-canary/ndk-bundle/platforms/android-14/arch-arm/usr/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../../../../../deps/djinni/include  -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Applications/android-sdk-canary/ndk-bundle/platforms/android-14/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -std=c++14 -fexceptions -frtti -Wall -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -std=c++11    ",
+					"src" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/jni/djinni_support.cpp",
+					"workingDirectory" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/build/intermediates/cmake/release/obj/armeabi/libdjinni.so",
+			"toolchain" : "8860085207842680821"
+		},
+		"djinnicmakeexample-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "djinnicmakeexample",
+			"buildCommand" : "/Applications/android-sdk-canary/cmake/bin/cmake --build /Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/armeabi --target djinnicmakeexample",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -DANDROID -Ddjinnicmakeexample_EXPORTS -isystem /Applications/android-sdk-canary/ndk-bundle/platforms/android-14/arch-arm/usr/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../../../../../src/main/cpp -I../../../../../../../deps/djinni/support-lib/jni -I../../../../../../../deps/djinni/support-lib -I../../../../../../../generated-src/cpp -I../../../../../../../generated-src/jni  -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Applications/android-sdk-canary/ndk-bundle/platforms/android-14/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -std=c++14 -fexceptions -frtti -Wall -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG      ",
+					"src" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/jni/djinni_main.cpp",
+					"workingDirectory" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DANDROID -Ddjinnicmakeexample_EXPORTS -isystem /Applications/android-sdk-canary/ndk-bundle/platforms/android-14/arch-arm/usr/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../../../../../src/main/cpp -I../../../../../../../deps/djinni/support-lib/jni -I../../../../../../../deps/djinni/support-lib -I../../../../../../../generated-src/cpp -I../../../../../../../generated-src/jni  -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Applications/android-sdk-canary/ndk-bundle/platforms/android-14/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -std=c++14 -fexceptions -frtti -Wall -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG      ",
+					"src" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/jni/djinni_support.cpp",
+					"workingDirectory" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DANDROID -Ddjinnicmakeexample_EXPORTS -isystem /Applications/android-sdk-canary/ndk-bundle/platforms/android-14/arch-arm/usr/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../../../../../src/main/cpp -I../../../../../../../deps/djinni/support-lib/jni -I../../../../../../../deps/djinni/support-lib -I../../../../../../../generated-src/cpp -I../../../../../../../generated-src/jni  -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Applications/android-sdk-canary/ndk-bundle/platforms/android-14/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -std=c++14 -fexceptions -frtti -Wall -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG      ",
+					"src" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/jni/NativeHelloWorld.cpp",
+					"workingDirectory" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/build/intermediates/cmake/release/obj/armeabi/libdjinnicmakeexample.so",
+			"toolchain" : "8860085207842680821"
+		}
+	},
+	"toolchains" : 
+	{
+		"8860085207842680821" : 
+		{
+			"cCompilerExecutable" : "/Applications/android-sdk-canary/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc",
+			"cppCompilerExecutable" : "/Applications/android-sdk-canary/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++"
+		}
+	}
+}

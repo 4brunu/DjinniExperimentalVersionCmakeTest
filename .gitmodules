@@ -1,0 +1,4 @@
+[submodule "deps/djinni"]
+	path = deps/djinni
+	url = https://github.com/mknejp/djinni.git
+	branch = feature/cmake

@@ -1,0 +1,2 @@
+/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/debug/armeabi-v7a/android_project/DjinniCmakeExampleAndroid/app/src/main/cpp/CMakeFiles/djinnicmakeexample.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/debug/armeabi-v7a/deps/djinni/CMakeFiles/djinni.dir

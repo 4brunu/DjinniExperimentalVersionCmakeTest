@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5448B271D2FD200001BE66A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5448B261D2FD200001BE66A /* main.m */; };
+		A5448B2A1D2FD200001BE66A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5448B291D2FD200001BE66A /* AppDelegate.m */; };
+		A5448B2D1D2FD200001BE66A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5448B2C1D2FD200001BE66A /* ViewController.m */; };
+		A5448B301D2FD200001BE66A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5448B2E1D2FD200001BE66A /* Main.storyboard */; };
+		A5448B321D2FD200001BE66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5448B311D2FD200001BE66A /* Assets.xcassets */; };
+		A5448B351D2FD200001BE66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5448B331D2FD200001BE66A /* LaunchScreen.storyboard */; };
+		A5448B401D2FD200001BE66A /* DjinniCmakeExampleiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5448B3F1D2FD200001BE66A /* DjinniCmakeExampleiOSTests.m */; };
+		A5448B4B1D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5448B4A1D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5448B3C1D2FD200001BE66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5448B1A1D2FD200001BE66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5448B211D2FD200001BE66A;
+			remoteInfo = DjinniCmakeExampleiOS;
+		};
+		A5448B471D2FD200001BE66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5448B1A1D2FD200001BE66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5448B211D2FD200001BE66A;
+			remoteInfo = DjinniCmakeExampleiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5448B221D2FD200001BE66A /* DjinniCmakeExampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DjinniCmakeExampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5448B261D2FD200001BE66A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5448B281D2FD200001BE66A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5448B291D2FD200001BE66A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5448B2B1D2FD200001BE66A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5448B2C1D2FD200001BE66A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5448B2F1D2FD200001BE66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5448B311D2FD200001BE66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5448B341D2FD200001BE66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5448B361D2FD200001BE66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5448B3B1D2FD200001BE66A /* DjinniCmakeExampleiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DjinniCmakeExampleiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5448B3F1D2FD200001BE66A /* DjinniCmakeExampleiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DjinniCmakeExampleiOSTests.m; sourceTree = "<group>"; };
+		A5448B411D2FD200001BE66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5448B461D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DjinniCmakeExampleiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5448B4A1D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DjinniCmakeExampleiOSUITests.m; sourceTree = "<group>"; };
+		A5448B4C1D2FD200001BE66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5448B1F1D2FD200001BE66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5448B381D2FD200001BE66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5448B431D2FD200001BE66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5448B191D2FD200001BE66A = {
+			isa = PBXGroup;
+			children = (
+				A5448B241D2FD200001BE66A /* DjinniCmakeExampleiOS */,
+				A5448B3E1D2FD200001BE66A /* DjinniCmakeExampleiOSTests */,
+				A5448B491D2FD200001BE66A /* DjinniCmakeExampleiOSUITests */,
+				A5448B231D2FD200001BE66A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5448B231D2FD200001BE66A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5448B221D2FD200001BE66A /* DjinniCmakeExampleiOS.app */,
+				A5448B3B1D2FD200001BE66A /* DjinniCmakeExampleiOSTests.xctest */,
+				A5448B461D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5448B241D2FD200001BE66A /* DjinniCmakeExampleiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A5448B281D2FD200001BE66A /* AppDelegate.h */,
+				A5448B291D2FD200001BE66A /* AppDelegate.m */,
+				A5448B2B1D2FD200001BE66A /* ViewController.h */,
+				A5448B2C1D2FD200001BE66A /* ViewController.m */,
+				A5448B2E1D2FD200001BE66A /* Main.storyboard */,
+				A5448B311D2FD200001BE66A /* Assets.xcassets */,
+				A5448B331D2FD200001BE66A /* LaunchScreen.storyboard */,
+				A5448B361D2FD200001BE66A /* Info.plist */,
+				A5448B251D2FD200001BE66A /* Supporting Files */,
+			);
+			path = DjinniCmakeExampleiOS;
+			sourceTree = "<group>";
+		};
+		A5448B251D2FD200001BE66A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5448B261D2FD200001BE66A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5448B3E1D2FD200001BE66A /* DjinniCmakeExampleiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5448B3F1D2FD200001BE66A /* DjinniCmakeExampleiOSTests.m */,
+				A5448B411D2FD200001BE66A /* Info.plist */,
+			);
+			path = DjinniCmakeExampleiOSTests;
+			sourceTree = "<group>";
+		};
+		A5448B491D2FD200001BE66A /* DjinniCmakeExampleiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5448B4A1D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.m */,
+				A5448B4C1D2FD200001BE66A /* Info.plist */,
+			);
+			path = DjinniCmakeExampleiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5448B211D2FD200001BE66A /* DjinniCmakeExampleiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5448B4F1D2FD200001BE66A /* Build configuration list for PBXNativeTarget "DjinniCmakeExampleiOS" */;
+			buildPhases = (
+				A5448B1E1D2FD200001BE66A /* Sources */,
+				A5448B1F1D2FD200001BE66A /* Frameworks */,
+				A5448B201D2FD200001BE66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DjinniCmakeExampleiOS;
+			productName = DjinniCmakeExampleiOS;
+			productReference = A5448B221D2FD200001BE66A /* DjinniCmakeExampleiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5448B3A1D2FD200001BE66A /* DjinniCmakeExampleiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5448B521D2FD200001BE66A /* Build configuration list for PBXNativeTarget "DjinniCmakeExampleiOSTests" */;
+			buildPhases = (
+				A5448B371D2FD200001BE66A /* Sources */,
+				A5448B381D2FD200001BE66A /* Frameworks */,
+				A5448B391D2FD200001BE66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5448B3D1D2FD200001BE66A /* PBXTargetDependency */,
+			);
+			name = DjinniCmakeExampleiOSTests;
+			productName = DjinniCmakeExampleiOSTests;
+			productReference = A5448B3B1D2FD200001BE66A /* DjinniCmakeExampleiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5448B451D2FD200001BE66A /* DjinniCmakeExampleiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5448B551D2FD200001BE66A /* Build configuration list for PBXNativeTarget "DjinniCmakeExampleiOSUITests" */;
+			buildPhases = (
+				A5448B421D2FD200001BE66A /* Sources */,
+				A5448B431D2FD200001BE66A /* Frameworks */,
+				A5448B441D2FD200001BE66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5448B481D2FD200001BE66A /* PBXTargetDependency */,
+			);
+			name = DjinniCmakeExampleiOSUITests;
+			productName = DjinniCmakeExampleiOSUITests;
+			productReference = A5448B461D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5448B1A1D2FD200001BE66A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Example;
+				TargetAttributes = {
+					A5448B211D2FD200001BE66A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A5448B3A1D2FD200001BE66A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A5448B211D2FD200001BE66A;
+					};
+					A5448B451D2FD200001BE66A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A5448B211D2FD200001BE66A;
+					};
+				};
+			};
+			buildConfigurationList = A5448B1D1D2FD200001BE66A /* Build configuration list for PBXProject "DjinniCmakeExampleiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5448B191D2FD200001BE66A;
+			productRefGroup = A5448B231D2FD200001BE66A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5448B211D2FD200001BE66A /* DjinniCmakeExampleiOS */,
+				A5448B3A1D2FD200001BE66A /* DjinniCmakeExampleiOSTests */,
+				A5448B451D2FD200001BE66A /* DjinniCmakeExampleiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5448B201D2FD200001BE66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5448B351D2FD200001BE66A /* LaunchScreen.storyboard in Resources */,
+				A5448B321D2FD200001BE66A /* Assets.xcassets in Resources */,
+				A5448B301D2FD200001BE66A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5448B391D2FD200001BE66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5448B441D2FD200001BE66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5448B1E1D2FD200001BE66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5448B2D1D2FD200001BE66A /* ViewController.m in Sources */,
+				A5448B2A1D2FD200001BE66A /* AppDelegate.m in Sources */,
+				A5448B271D2FD200001BE66A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5448B371D2FD200001BE66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5448B401D2FD200001BE66A /* DjinniCmakeExampleiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5448B421D2FD200001BE66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5448B4B1D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5448B3D1D2FD200001BE66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5448B211D2FD200001BE66A /* DjinniCmakeExampleiOS */;
+			targetProxy = A5448B3C1D2FD200001BE66A /* PBXContainerItemProxy */;
+		};
+		A5448B481D2FD200001BE66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5448B211D2FD200001BE66A /* DjinniCmakeExampleiOS */;
+			targetProxy = A5448B471D2FD200001BE66A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5448B2E1D2FD200001BE66A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5448B2F1D2FD200001BE66A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5448B331D2FD200001BE66A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5448B341D2FD200001BE66A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5448B4D1D2FD200001BE66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5448B4E1D2FD200001BE66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5448B501D2FD200001BE66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DjinniCmakeExampleiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DjinniCmakeExampleiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5448B511D2FD200001BE66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DjinniCmakeExampleiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DjinniCmakeExampleiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5448B531D2FD200001BE66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DjinniCmakeExampleiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DjinniCmakeExampleiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DjinniCmakeExampleiOS.app/DjinniCmakeExampleiOS";
+			};
+			name = Debug;
+		};
+		A5448B541D2FD200001BE66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DjinniCmakeExampleiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DjinniCmakeExampleiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DjinniCmakeExampleiOS.app/DjinniCmakeExampleiOS";
+			};
+			name = Release;
+		};
+		A5448B561D2FD200001BE66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DjinniCmakeExampleiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DjinniCmakeExampleiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DjinniCmakeExampleiOS;
+			};
+			name = Debug;
+		};
+		A5448B571D2FD200001BE66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DjinniCmakeExampleiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DjinniCmakeExampleiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DjinniCmakeExampleiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5448B1D1D2FD200001BE66A /* Build configuration list for PBXProject "DjinniCmakeExampleiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5448B4D1D2FD200001BE66A /* Debug */,
+				A5448B4E1D2FD200001BE66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5448B4F1D2FD200001BE66A /* Build configuration list for PBXNativeTarget "DjinniCmakeExampleiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5448B501D2FD200001BE66A /* Debug */,
+				A5448B511D2FD200001BE66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5448B521D2FD200001BE66A /* Build configuration list for PBXNativeTarget "DjinniCmakeExampleiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5448B531D2FD200001BE66A /* Debug */,
+				A5448B541D2FD200001BE66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5448B551D2FD200001BE66A /* Build configuration list for PBXNativeTarget "DjinniCmakeExampleiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5448B561D2FD200001BE66A /* Debug */,
+				A5448B571D2FD200001BE66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5448B1A1D2FD200001BE66A /* Project object */;
+}

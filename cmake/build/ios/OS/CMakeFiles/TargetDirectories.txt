@@ -1,0 +1,11 @@
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/CMakeFiles/install.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/CMakeFiles/ALL_BUILD.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/CMakeFiles/ZERO_CHECK.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/deps/djinni/CMakeFiles/install.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/deps/djinni/CMakeFiles/djinni.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/deps/djinni/CMakeFiles/ALL_BUILD.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/deps/djinni/CMakeFiles/ZERO_CHECK.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/ios_project/DjinniCmakeExampleiOS/CMakeFiles/install.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/ios_project/DjinniCmakeExampleiOS/CMakeFiles/DjinniCmakeExample.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/ios_project/DjinniCmakeExampleiOS/CMakeFiles/ALL_BUILD.dir
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/OS/ios_project/DjinniCmakeExampleiOS/CMakeFiles/ZERO_CHECK.dir

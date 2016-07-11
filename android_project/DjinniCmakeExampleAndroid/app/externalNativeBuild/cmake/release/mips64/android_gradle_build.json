@@ -1,0 +1,79 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/bruno.coelho/Developer/DjinniCmakeExample/CMakeLists.txt",
+		"/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/CMakeLists.txt",
+		"/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Applications/android-sdk-canary/cmake/bin/cmake --build /Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/mips64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"djinni-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "djinni",
+			"buildCommand" : "/Applications/android-sdk-canary/cmake/bin/cmake --build /Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/mips64 --target djinni",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -DANDROID -Ddjinni_EXPORTS -isystem /Applications/android-sdk-canary/ndk-bundle/platforms/android-21/arch-mips64/usr/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../../../../../deps/djinni/include  -fexceptions -frtti -Wno-psabi --sysroot=/Applications/android-sdk-canary/ndk-bundle/platforms/android-21/arch-mips64 -fno-strict-aliasing -finline-functions -funwind-tables -fmessage-length=0 -fno-inline-functions-called-once -fgcse-after-reload -frerun-cse-after-loop -frename-registers -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -std=c++14 -fexceptions -frtti -Wall -fomit-frame-pointer -funswitch-loops -finline-limit=300 -O3 -DNDEBUG -fPIC   -std=c++11    ",
+					"src" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/jni/djinni_main.cpp",
+					"workingDirectory" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  -DANDROID -Ddjinni_EXPORTS -isystem /Applications/android-sdk-canary/ndk-bundle/platforms/android-21/arch-mips64/usr/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../../../../../deps/djinni/include  -fexceptions -frtti -Wno-psabi --sysroot=/Applications/android-sdk-canary/ndk-bundle/platforms/android-21/arch-mips64 -fno-strict-aliasing -finline-functions -funwind-tables -fmessage-length=0 -fno-inline-functions-called-once -fgcse-after-reload -frerun-cse-after-loop -frename-registers -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -std=c++14 -fexceptions -frtti -Wall -fomit-frame-pointer -funswitch-loops -finline-limit=300 -O3 -DNDEBUG -fPIC   -std=c++11    ",
+					"src" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/jni/djinni_support.cpp",
+					"workingDirectory" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/mips64"
+				}
+			],
+			"output" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/build/intermediates/cmake/release/obj/mips64/libdjinni.so",
+			"toolchain" : "2920904792993986980"
+		},
+		"djinnicmakeexample-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "djinnicmakeexample",
+			"buildCommand" : "/Applications/android-sdk-canary/cmake/bin/cmake --build /Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/mips64 --target djinnicmakeexample",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -DANDROID -Ddjinnicmakeexample_EXPORTS -isystem /Applications/android-sdk-canary/ndk-bundle/platforms/android-21/arch-mips64/usr/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../../../../../src/main/cpp -I../../../../../../../deps/djinni/support-lib/jni -I../../../../../../../deps/djinni/support-lib -I../../../../../../../generated-src/cpp -I../../../../../../../generated-src/jni  -fexceptions -frtti -Wno-psabi --sysroot=/Applications/android-sdk-canary/ndk-bundle/platforms/android-21/arch-mips64 -fno-strict-aliasing -finline-functions -funwind-tables -fmessage-length=0 -fno-inline-functions-called-once -fgcse-after-reload -frerun-cse-after-loop -frename-registers -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -std=c++14 -fexceptions -frtti -Wall -fomit-frame-pointer -funswitch-loops -finline-limit=300 -O3 -DNDEBUG -fPIC      ",
+					"src" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/jni/djinni_main.cpp",
+					"workingDirectory" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  -DANDROID -Ddjinnicmakeexample_EXPORTS -isystem /Applications/android-sdk-canary/ndk-bundle/platforms/android-21/arch-mips64/usr/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../../../../../src/main/cpp -I../../../../../../../deps/djinni/support-lib/jni -I../../../../../../../deps/djinni/support-lib -I../../../../../../../generated-src/cpp -I../../../../../../../generated-src/jni  -fexceptions -frtti -Wno-psabi --sysroot=/Applications/android-sdk-canary/ndk-bundle/platforms/android-21/arch-mips64 -fno-strict-aliasing -finline-functions -funwind-tables -fmessage-length=0 -fno-inline-functions-called-once -fgcse-after-reload -frerun-cse-after-loop -frename-registers -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -std=c++14 -fexceptions -frtti -Wall -fomit-frame-pointer -funswitch-loops -finline-limit=300 -O3 -DNDEBUG -fPIC      ",
+					"src" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/jni/djinni_support.cpp",
+					"workingDirectory" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  -DANDROID -Ddjinnicmakeexample_EXPORTS -isystem /Applications/android-sdk-canary/ndk-bundle/platforms/android-21/arch-mips64/usr/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Applications/android-sdk-canary/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../../../../../src/main/cpp -I../../../../../../../deps/djinni/support-lib/jni -I../../../../../../../deps/djinni/support-lib -I../../../../../../../generated-src/cpp -I../../../../../../../generated-src/jni  -fexceptions -frtti -Wno-psabi --sysroot=/Applications/android-sdk-canary/ndk-bundle/platforms/android-21/arch-mips64 -fno-strict-aliasing -finline-functions -funwind-tables -fmessage-length=0 -fno-inline-functions-called-once -fgcse-after-reload -frerun-cse-after-loop -frename-registers -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -std=c++14 -fexceptions -frtti -Wall -fomit-frame-pointer -funswitch-loops -finline-limit=300 -O3 -DNDEBUG -fPIC      ",
+					"src" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/jni/NativeHelloWorld.cpp",
+					"workingDirectory" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/release/mips64"
+				}
+			],
+			"output" : "/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/build/intermediates/cmake/release/obj/mips64/libdjinnicmakeexample.so",
+			"toolchain" : "2920904792993986980"
+		}
+	},
+	"toolchains" : 
+	{
+		"2920904792993986980" : 
+		{
+			"cCompilerExecutable" : "/Applications/android-sdk-canary/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64/bin/mips64el-linux-android-gcc",
+			"cppCompilerExecutable" : "/Applications/android-sdk-canary/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64/bin/mips64el-linux-android-g++"
+		}
+	}
+}
