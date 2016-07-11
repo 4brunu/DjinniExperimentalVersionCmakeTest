@@ -4,7 +4,7 @@
 
 `sh run_cmake_ios.sh`
 
-Error
+##Error with `DJINNI_FRAMEWORK` ENABLE
 ```
 === BUILD TARGET djinni OF PROJECT djinnicmakeexample_all WITH CONFIGURATION Release ===
 
@@ -13,6 +13,21 @@ CodeSign error: code signing is required for product type 'Framework' in SDK 'iO
 
 ** BUILD FAILED **
 ```
+
+##Error with `DJINNI_FRAMEWORK` DISABLED
+```
+=== BUILD TARGET djinni OF PROJECT djinnicmakeexample_all WITH CONFIGURATION Release ===
+
+Check dependencies
+CodeSign error: code signing is required for product type 'Dynamic Library' in SDK 'iOS 9.3'
+
+** BUILD FAILED **
+```
+
+##Info
+The build works with SIMLUATOR and SIMULATOR64 ABI's, but not the OS. [HERE](https://github.com/4brunu/DjinniCmakeExample/blob/master/run_cmake_ios.sh#L6)
+
+
 
 # How to run Cmake on Android
 
@@ -38,3 +53,5 @@ CMake Error at deps/djinni/CMakeLists.txt:1 (cmake_minimum_required):
 Error:executing external native build for cmake /Users/4brunu/Developer/DjinniCmakeExample/CMakeLists.txt
 ```
 
+##Info
+The Cmake that comes with Android Studio is the version 3.4.1 and the CMake provided with djinni requires 3.5.0 
