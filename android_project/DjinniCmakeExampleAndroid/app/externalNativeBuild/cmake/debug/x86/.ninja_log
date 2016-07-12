@@ -1,0 +1,7 @@
+# ninja log v5
+0	857	0	deps/djinni/CMakeFiles/djinni.dir/support-lib/jni/djinni_main.cpp.o	e14fc2c498137abc
+1	2791	0	deps/djinni/CMakeFiles/djinni.dir/support-lib/jni/djinni_support.cpp.o	74300392f696684c
+2791	2916	0	../../../../build/intermediates/cmake/debug/obj/x86/libdjinni.so	6f92b778cc0fa993
+0	751	0	android_project/DjinniCmakeExampleAndroid/app/src/main/cpp/CMakeFiles/djinnicmakeexample.dir/__/__/__/__/__/__/src/main/cpp/HelloWorldImpl.cpp.o	992c9addcb93a7fb
+1	1723	0	android_project/DjinniCmakeExampleAndroid/app/src/main/cpp/CMakeFiles/djinnicmakeexample.dir/__/__/__/__/__/__/generated-src/jni/NativeHelloWorld.cpp.o	3fa4125cd535cc5
+1723	1977	0	../../../../build/intermediates/cmake/debug/obj/x86/libdjinnicmakeexample.so	cf30dddbce94cbd8

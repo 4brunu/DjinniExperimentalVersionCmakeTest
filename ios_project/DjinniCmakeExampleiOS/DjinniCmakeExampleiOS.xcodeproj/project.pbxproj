@@ -15,6 +15,7 @@
 		A5448B351D2FD200001BE66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5448B331D2FD200001BE66A /* LaunchScreen.storyboard */; };
 		A5448B401D2FD200001BE66A /* DjinniCmakeExampleiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5448B3F1D2FD200001BE66A /* DjinniCmakeExampleiOSTests.m */; };
 		A5448B4B1D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5448B4A1D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.m */; };
+		A5E43AF71D34DAD10056FC8D /* HelloWorldImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5E43AF51D34DAD10056FC8D /* HelloWorldImpl.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A5448B461D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DjinniCmakeExampleiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5448B4A1D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DjinniCmakeExampleiOSUITests.m; sourceTree = "<group>"; };
 		A5448B4C1D2FD200001BE66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E43AF51D34DAD10056FC8D /* HelloWorldImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldImpl.cpp; path = ../../../src/main/cpp/HelloWorldImpl.cpp; sourceTree = "<group>"; };
+		A5E43AF61D34DAD10056FC8D /* HelloWorldImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = HelloWorldImpl.hpp; path = ../../../src/main/cpp/HelloWorldImpl.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				A5448B281D2FD200001BE66A /* AppDelegate.h */,
 				A5448B291D2FD200001BE66A /* AppDelegate.m */,
+				A5E43AF51D34DAD10056FC8D /* HelloWorldImpl.cpp */,
+				A5E43AF61D34DAD10056FC8D /* HelloWorldImpl.hpp */,
 				A5448B2B1D2FD200001BE66A /* ViewController.h */,
 				A5448B2C1D2FD200001BE66A /* ViewController.m */,
 				A5448B2E1D2FD200001BE66A /* Main.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5448B2D1D2FD200001BE66A /* ViewController.m in Sources */,
+				A5E43AF71D34DAD10056FC8D /* HelloWorldImpl.cpp in Sources */,
 				A5448B2A1D2FD200001BE66A /* AppDelegate.m in Sources */,
 				A5448B271D2FD200001BE66A /* main.m in Sources */,
 			);
@@ -369,6 +375,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../src/main/cpp/ $(PROJECT_DIR)/../../generated-src/objc/ $(PROJECT_DIR)/../../generated-src/cpp/ $(PROJECT_DIR)/../../deps/djinni/support-lib/ $(PROJECT_DIR)/../../deps/djinni/support-lib/objc/";
 			};
 			name = Debug;
 		};
@@ -407,6 +414,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../src/main/cpp/ $(PROJECT_DIR)/../../generated-src/objc/ $(PROJECT_DIR)/../../generated-src/cpp/ $(PROJECT_DIR)/../../deps/djinni/support-lib/ $(PROJECT_DIR)/../../deps/djinni/support-lib/objc/";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -498,6 +506,7 @@
 				A5448B511D2FD200001BE66A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5448B521D2FD200001BE66A /* Build configuration list for PBXNativeTarget "DjinniCmakeExampleiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				A5448B541D2FD200001BE66A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5448B551D2FD200001BE66A /* Build configuration list for PBXNativeTarget "DjinniCmakeExampleiOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +524,7 @@
 				A5448B571D2FD200001BE66A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -287,7 +287,7 @@ djinni_LIB_DEPENDS:STATIC=
 djinnicmakeexample_BINARY_DIR:STATIC=/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/externalNativeBuild/cmake/debug/armeabi/android_project/DjinniCmakeExampleAndroid/app/src/main/cpp
 
 //Dependencies for the target
-djinnicmakeexample_LIB_DEPENDS:STATIC=general;Djinni;
+djinnicmakeexample_LIB_DEPENDS:STATIC=general;djinni;
 
 //Value Computed by CMake
 djinnicmakeexample_SOURCE_DIR:STATIC=/Users/bruno.coelho/Developer/DjinniCmakeExample/android_project/DjinniCmakeExampleAndroid/app/src/main/cpp
@@ -453,7 +453,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
