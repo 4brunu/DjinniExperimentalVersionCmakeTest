@@ -55,3 +55,10 @@ Error:executing external native build for cmake /Users/4brunu/Developer/DjinniCm
 
 ##### Info
 The Cmake that comes with Android Studio is the version 3.4.1 and the CMake provided with djinni requires 3.5.0 
+
+#### Error with CMake minimum version at 3.4.1
+
+```
+07-12 11:10:37.184 3072-3072/com.example.djinnicmakeexampleandroid A/libc: ../../../../../../../deps/djinni/include/djinni/support-lib/jni/djinni_support.hpp:229: static const C& djinni::JniClass<C>::get() [with C = djinni_generated::NativeHelloWorld]: assertion "s_singleton" failed
+07-12 11:10:37.188 3072-3072/com.example.djinnicmakeexampleandroid A/libc: Fatal signal 6 (SIGABRT), code -6 in tid 3072 (eexampleandroid)
+```
