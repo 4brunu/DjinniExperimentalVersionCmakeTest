@@ -1,4 +1,4 @@
 HelloWorld = interface +c {
 	static create(): HelloWorld;
-  hello();
+  getHelloString(): string;
 }

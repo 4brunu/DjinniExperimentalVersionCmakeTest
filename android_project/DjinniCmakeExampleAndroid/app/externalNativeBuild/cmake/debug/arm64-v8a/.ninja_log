@@ -5,3 +5,6 @@
 0	879	0	android_project/DjinniCmakeExampleAndroid/app/src/main/cpp/CMakeFiles/djinnicmakeexample.dir/__/__/__/__/__/__/src/main/cpp/HelloWorldImpl.cpp.o	6b01b316ec49771e
 0	1756	0	android_project/DjinniCmakeExampleAndroid/app/src/main/cpp/CMakeFiles/djinnicmakeexample.dir/__/__/__/__/__/__/generated-src/jni/NativeHelloWorld.cpp.o	c2d9203af124807e
 1756	2226	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libdjinnicmakeexample.so	dcb996b00297cd1f
+1	1218	0	android_project/DjinniCmakeExampleAndroid/app/src/main/cpp/CMakeFiles/djinnicmakeexample.dir/__/__/__/__/__/__/src/main/cpp/HelloWorldImpl.cpp.o	6b01b316ec49771e
+2	3065	0	android_project/DjinniCmakeExampleAndroid/app/src/main/cpp/CMakeFiles/djinnicmakeexample.dir/__/__/__/__/__/__/generated-src/jni/NativeHelloWorld.cpp.o	c2d9203af124807e
+3065	3806	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libdjinnicmakeexample.so	dcb996b00297cd1f

@@ -16,6 +16,8 @@
 		A5448B401D2FD200001BE66A /* DjinniCmakeExampleiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5448B3F1D2FD200001BE66A /* DjinniCmakeExampleiOSTests.m */; };
 		A5448B4B1D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5448B4A1D2FD200001BE66A /* DjinniCmakeExampleiOSUITests.m */; };
 		A5E43AF71D34DAD10056FC8D /* HelloWorldImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5E43AF51D34DAD10056FC8D /* HelloWorldImpl.cpp */; };
+		A5E43AFF1D3503F70056FC8D /* Release-libDjinniCmakeExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E43AFE1D3503F70056FC8D /* Release-libDjinniCmakeExample.a */; };
+		A5E43B011D3504170056FC8D /* djinni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E43B001D3504170056FC8D /* djinni.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		A5448B4C1D2FD200001BE66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5E43AF51D34DAD10056FC8D /* HelloWorldImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldImpl.cpp; path = ../../../src/main/cpp/HelloWorldImpl.cpp; sourceTree = "<group>"; };
 		A5E43AF61D34DAD10056FC8D /* HelloWorldImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = HelloWorldImpl.hpp; path = ../../../src/main/cpp/HelloWorldImpl.hpp; sourceTree = "<group>"; };
+		A5E43AFE1D3503F70056FC8D /* Release-libDjinniCmakeExample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "Release-libDjinniCmakeExample.a"; path = "../../../cmake/bin/ios/Release/UNIVERSAL/Release-libDjinniCmakeExample.a"; sourceTree = "<group>"; };
+		A5E43B001D3504170056FC8D /* djinni.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = djinni.framework; path = ../../../cmake/install/ios/SIMULATOR64/lib/djinni.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E43B011D3504170056FC8D /* djinni.framework in Frameworks */,
+				A5E43AFF1D3503F70056FC8D /* Release-libDjinniCmakeExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +116,8 @@
 				A5E43AF61D34DAD10056FC8D /* HelloWorldImpl.hpp */,
 				A5448B2B1D2FD200001BE66A /* ViewController.h */,
 				A5448B2C1D2FD200001BE66A /* ViewController.m */,
+				A5E43AFE1D3503F70056FC8D /* Release-libDjinniCmakeExample.a */,
+				A5E43B001D3504170056FC8D /* djinni.framework */,
 				A5448B2E1D2FD200001BE66A /* Main.storyboard */,
 				A5448B311D2FD200001BE66A /* Assets.xcassets */,
 				A5448B331D2FD200001BE66A /* LaunchScreen.storyboard */,
@@ -356,6 +364,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../cmake/install/ios/SIMULATOR64/lib";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -370,12 +379,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../cmake/bin/ios/Release/UNIVERSAL";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../src/main/cpp/ $(PROJECT_DIR)/../../generated-src/objc/ $(PROJECT_DIR)/../../generated-src/cpp/ $(PROJECT_DIR)/../../deps/djinni/support-lib/ $(PROJECT_DIR)/../../deps/djinni/support-lib/objc/";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../src/main/cpp/ $(PROJECT_DIR)/../../generated-src/objc/ $(PROJECT_DIR)/../../generated-src/cpp/";
 			};
 			name = Debug;
 		};
@@ -402,6 +412,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../cmake/install/ios/SIMULATOR64/lib";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -410,11 +421,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../cmake/bin/ios/Release/UNIVERSAL";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../src/main/cpp/ $(PROJECT_DIR)/../../generated-src/objc/ $(PROJECT_DIR)/../../generated-src/cpp/ $(PROJECT_DIR)/../../deps/djinni/support-lib/ $(PROJECT_DIR)/../../deps/djinni/support-lib/objc/";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../src/main/cpp/ $(PROJECT_DIR)/../../generated-src/objc/ $(PROJECT_DIR)/../../generated-src/cpp/";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

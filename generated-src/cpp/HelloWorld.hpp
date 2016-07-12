@@ -4,6 +4,7 @@
 #pragma once
 
 #include <memory>
+#include <string>
 
 namespace djinnicmakeexample {
 
@@ -13,7 +14,7 @@ public:
 
     static std::shared_ptr<HelloWorld> create();
 
-    virtual void hello() = 0;
+    virtual std::string getHelloString() = 0;
 };
 
 }  // namespace djinnicmakeexample

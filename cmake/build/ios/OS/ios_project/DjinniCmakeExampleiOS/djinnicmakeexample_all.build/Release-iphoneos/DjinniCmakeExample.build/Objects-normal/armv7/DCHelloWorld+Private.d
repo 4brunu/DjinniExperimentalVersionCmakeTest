@@ -5,4 +5,5 @@ dependencies: \
   /Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/objc/DCHelloWorld.h \
   /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h \
   /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp \
-  /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h
+  /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h \
+  /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h

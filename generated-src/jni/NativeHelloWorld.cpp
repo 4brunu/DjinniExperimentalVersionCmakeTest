@@ -3,6 +3,7 @@
 
 #include "NativeHelloWorld.hpp"  // my header
 #include "NativeHelloWorld.hpp"
+#include "djinni/support-lib/jni/Marshal.hpp"
 
 namespace djinni_generated {
 
@@ -28,13 +29,14 @@ CJNIEXPORT jobject JNICALL Java_com_example_djinnicmakeexample_HelloWorld_create
     } JNI_TRANSLATE_EXCEPTIONS_RETURN(jniEnv, 0 /* value doesn't matter */)
 }
 
-CJNIEXPORT void JNICALL Java_com_example_djinnicmakeexample_HelloWorld_00024CppProxy_native_1hello(JNIEnv* jniEnv, jobject /*this*/, jlong nativeRef)
+CJNIEXPORT jstring JNICALL Java_com_example_djinnicmakeexample_HelloWorld_00024CppProxy_native_1getHelloString(JNIEnv* jniEnv, jobject /*this*/, jlong nativeRef)
 {
     try {
         DJINNI_FUNCTION_PROLOGUE1(jniEnv, nativeRef);
         const auto& ref = ::djinni::objectFromHandleAddress<::djinnicmakeexample::HelloWorld>(nativeRef);
-        ref->hello();
-    } JNI_TRANSLATE_EXCEPTIONS_RETURN(jniEnv, )
+        auto r = ref->getHelloString();
+        return ::djinni::release(::djinni::String::fromCpp(jniEnv, r));
+    } JNI_TRANSLATE_EXCEPTIONS_RETURN(jniEnv, 0 /* value doesn't matter */)
 }
 
 }  // namespace djinni_generated

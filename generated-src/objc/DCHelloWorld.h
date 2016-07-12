@@ -9,6 +9,6 @@
 
 + (nullable DCHelloWorld *)create;
 
-- (void)hello;
+- (nonnull NSString *)getHelloString;
 
 @end

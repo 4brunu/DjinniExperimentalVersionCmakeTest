@@ -6,6 +6,7 @@
 #import "DCHelloWorld+Private.h"
 #import "djinni/support-lib/objc/DJICppWrapperCache+Private.h"
 #import "djinni/support-lib/objc/DJIError.h"
+#import "djinni/support-lib/objc/DJIMarshal+Private.h"
 #include <exception>
 #include <utility>
 
@@ -36,9 +37,10 @@ static_assert(__has_feature(objc_arc), "Djinni requires ARC to be enabled for th
     } DJINNI_TRANSLATE_EXCEPTIONS()
 }
 
-- (void)hello {
+- (nonnull NSString *)getHelloString {
     try {
-        _cppRefHandle.get()->hello();
+        auto r = _cppRefHandle.get()->getHelloString();
+        return ::djinni::String::fromCpp(r);
     } DJINNI_TRANSLATE_EXCEPTIONS()
 }
 

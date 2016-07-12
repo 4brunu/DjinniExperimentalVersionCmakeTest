@@ -14,8 +14,10 @@ namespace djinnicmakeexample{
     
         public:
         
-        void hello();
+        HelloWorldImpl();
         
+        std::string getHelloString();
+                
         private:
         
     };

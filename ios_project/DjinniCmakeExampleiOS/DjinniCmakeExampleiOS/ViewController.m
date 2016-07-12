@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "DCHelloWorld.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -17,6 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    DCHelloWorld *helloWorld = [DCHelloWorld create];
+    
+    NSString *stringHello = [helloWorld getHelloString];
+    
+    _label.text = stringHello;
 }
 
 - (void)didReceiveMemoryWarning {

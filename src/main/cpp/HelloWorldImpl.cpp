@@ -17,9 +17,15 @@ namespace djinnicmakeexample {
         
     }
     
-    void HelloWorldImpl::hello() {
+    HelloWorldImpl::HelloWorldImpl() {
         
-        std::cout << "hello()" << std::endl;
+        std::cout << "HelloWorldImpl constructor" << std::endl;
+
+    }
+    
+    std::string HelloWorldImpl::getHelloString() {
+                
+        return "hello! It Works!";
         
     }
     

@@ -58,6 +58,6 @@ elseif(IOS_PLATFORM)
   add_subdirectory(deps/djinni)
   add_subdirectory(ios_project/DjinniCmakeExampleiOS)
 
-  set_target_properties(djinni PROPERTIES XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "Automatic")
+  set_target_properties(djinni PROPERTIES XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "iPhone Developer")
 
 endif(ANDROID)

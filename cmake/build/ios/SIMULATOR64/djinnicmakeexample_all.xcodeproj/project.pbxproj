@@ -7,95 +7,95 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		1A1A3C1AA66844F6BFD78F2A /* ZERO_CHECK */ = {
+		2AE7DC6E38FF433D8E4264A1 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E2FD679AAA204F8EA309BFF5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 95A5BE57BD28482F86553B77 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				C9C8F427C67143E180E4A1D0 /* CMake Rules */,
+				F2F74EC585E648F0AD1AC6AC /* CMake Rules */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		3434DDB9682B43CF81B48751 /* install */ = {
+		2C545CEED17841919A90804A /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C561F22165934F33AD082E50 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 7E6249A2705143B2AC790E01 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				B4FE7CA0CF6842A2943C9EC9 /* CMake PostBuild Rules */,
+				D706E0CACC6442429BD3196A /* CMake Rules */,
 			);
 			dependencies = (
-				134B9AFF6E854F69B6B80D6E /* PBXTargetDependency */,
-			);
-			name = install;
-			productName = install;
-		};
-		D0202227013D4850A36C3337 /* ALL_BUILD */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = C368DD2A8AC545FBBF4DA0D1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
-			buildPhases = (
-				3464EE61BF9A472C926E4ED3 /* CMake Rules */,
-			);
-			dependencies = (
-				E74D2FCCC59A4FB4A7F29B15 /* PBXTargetDependency */,
-				550337E32BBD448E8F943412 /* PBXTargetDependency */,
-				41FFCC51A34947D79876705B /* PBXTargetDependency */,
+				D08CE806533A45B495CE7E59 /* PBXTargetDependency */,
+				A22023D71DB1489AAF872452 /* PBXTargetDependency */,
+				E5E0FD296C7D4F7DABCAE67A /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
+		C2F83AFEC5D143E58DD7D935 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48B48B4151E24586A7A100AD /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				79536F6FF98D42C5B8A974CF /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				ED6DF5548B72445781AA9E3F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0ACE1281544D4FDEA2CD1E90 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = 500E75AC92C543B68F37D3E1 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
-		26F28A16E7224EFF89BCA356 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXBuildFile; fileRef = 39F044C95E7F4F68A15DEFB4 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */; settings = {COMPILER_FLAGS = ""; }; };
-		489741C4C24B47AB8AD78F68 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = A6E0296793064AF9AF740197 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
-		4E66C43EE48F4DA2A6FCF109 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/cpp/HelloWorld.hpp */ = {isa = PBXBuildFile; fileRef = A4FCD94FE426432995F48562 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/cpp/HelloWorld.hpp */; settings = {COMPILER_FLAGS = ""; }; };
-		50B686AAF330403D9B5206B8 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */ = {isa = PBXBuildFile; fileRef = E27ABC18DA0346DB9A4594C9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */; settings = {COMPILER_FLAGS = ""; }; };
-		52985F194F064025BCAF8CFE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXBuildFile; fileRef = 87877579843849B99E61C486 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
-		543A66C64C2E42DCAD0C1361 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */ = {isa = PBXBuildFile; fileRef = 0C73A777EA8845C9921AE569 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */; settings = {COMPILER_FLAGS = ""; }; };
-		65238795825441C884202C62 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 670EEF1B00624B20A656E992 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		6551B1A8254743C78CA75129 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/djinni_common.hpp */ = {isa = PBXBuildFile; fileRef = 22CC9A63528C4685ACDA71B3 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/djinni_common.hpp */; settings = {COMPILER_FLAGS = ""; }; };
-		7A0EFD786C1445A0B7EDDD9B /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.mm */ = {isa = PBXBuildFile; fileRef = B6618817FCD94D6CB4CA626A /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.mm */; settings = {COMPILER_FLAGS = ""; }; };
-		7B944B9DB28640CAAAD90769 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = D9F689DAC7EF4FC88BB2861B /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
-		7D71747600F84492BF99AA8A /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld.h */ = {isa = PBXBuildFile; fileRef = 02F89ACAC393491EA72C96E0 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld.h */; settings = {COMPILER_FLAGS = ""; }; };
-		908EC63B83EB4F3E86EF1FEE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXBuildFile; fileRef = 1EADA8DD53FC494A9D6FD90D /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
-		94CE4AE414D94FBFA033E8E5 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 50DFDB21D8D6470983F22B29 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		9AF0BF70E360491980A51E8B /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXBuildFile; fileRef = 5027A513050C471DA0B36949 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */; settings = {COMPILER_FLAGS = ""; }; };
-		BA8E125EE0C246C58DF86447 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp */ = {isa = PBXBuildFile; fileRef = C5C44F56A4944C74964F8941 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp */; settings = {COMPILER_FLAGS = ""; }; };
-		C08900C73A5E4CB790050850 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */ = {isa = PBXBuildFile; fileRef = 86793197585346A9A2E92466 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */; settings = {COMPILER_FLAGS = ""; }; };
-		E6A88A5604F14FAA81EED860 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = B24A1F32D456431AB770CCAE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
-		E734398929F14D54AFE1BFF8 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/proxy_cache_impl.hpp */ = {isa = PBXBuildFile; fileRef = 87700F1DD7104428A8AD478E /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/proxy_cache_impl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
-		F214AFB059484BBDB3851169 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.h */ = {isa = PBXBuildFile; fileRef = CA9FAB27361B40A7B31152DE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
-		FF7F4008F1E741388F276FBD /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */ = {isa = PBXBuildFile; fileRef = 3D3CF27DD1C94796951E78B5 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		143B525ABE644D51BA75BB8E /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.h */ = {isa = PBXBuildFile; fileRef = EA0CD0BDE1FC4B748B723C1F /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1783AE98E5F849959D684D77 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */ = {isa = PBXBuildFile; fileRef = 39B13CDAF77541D8A157BACF /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1EF3190998884FDF896B125E /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXBuildFile; fileRef = 19CB2E51D5AE4D2D90D6BCDC /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		2799A8E18AE744BAB27BBA07 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = 2CD4FBE76946487192BECB4E /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2A9E15957983481B9B23935D /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/proxy_cache_impl.hpp */ = {isa = PBXBuildFile; fileRef = 010D072B434F4E6699285151 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/proxy_cache_impl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3773D293363141DA9C77F1AA /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = 0170AF615C5A43CC80B305E8 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3BFC2FC019C24864A88F64B7 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld.h */ = {isa = PBXBuildFile; fileRef = DDD21E2E9AA448B5ADB32575 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld.h */; settings = {COMPILER_FLAGS = ""; }; };
+		407C3EDB11494DCC9177E8B1 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/djinni_common.hpp */ = {isa = PBXBuildFile; fileRef = A928FBE73F9A42DE8EED9FC1 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/djinni_common.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		45817701A8A14BA8A497FEBE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXBuildFile; fileRef = 2EE82CE993794C5B8199528A /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		65A66C92F1EA4E6789A32B8C /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/cpp/HelloWorld.hpp */ = {isa = PBXBuildFile; fileRef = ACD3FCAB376D42189EBF35E9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/cpp/HelloWorld.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7CFF9686EDAF4B6A994D6F80 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A41A10E2D64F4D0895EFF688 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		82209BA8374348DCBB95FBA5 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp */ = {isa = PBXBuildFile; fileRef = 2790ABDB4C04478BA78D9DB7 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8715062F73AF43B8956B8A6D /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.mm */ = {isa = PBXBuildFile; fileRef = F72AA8548B3B4BF7B1F7F21A /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		98CCDE99765648B69D2670F9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = 369CAD594E884F27B6767611 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		99E0E753DDAD45A3B20DBA5D /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXBuildFile; fileRef = B96AB3F11A824163BB678DE5 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9EB0EA978D9C44C3B72E0316 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */ = {isa = PBXBuildFile; fileRef = A64960329C6B402B82461F44 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		A48CA21C219846C7B650DB58 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */ = {isa = PBXBuildFile; fileRef = F217BDD3579D4D19806B16DF /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C8129BC782BE44818079FDB5 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXBuildFile; fileRef = 736D392ECCBA49CD8AB88AA3 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C9FD2A3BCEF44D6BA918BED7 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A1FD8467CCA14D73A36B36D7 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		CC3209CC9E0548198FD38264 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */ = {isa = PBXBuildFile; fileRef = 7C3451C93DEE438BBE2716C9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		E3786DA6B2ED4455BB8F4D46 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = 823AA5F6E3C1450592DC1177 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		18A558AA46174494A30A51BD = {
-			isa = PBXBuildStyle;
-		};
-		3E7C597A54FC4052BB09A468 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		40701ECAC2D943E0837E19FB /* Release */ = {
+		16E1B72C63934AD5A1640124 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		9CDC10560A7B4EE4B7AF741F /* MinSizeRel */ = {
+		61645957F81543A184F402D6 = {
+			isa = PBXBuildStyle;
+		};
+		BA721BB284DF4F29997F2117 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		FE56CC238232498D8286CF4A /* RelWithDebInfo */ = {
+		EAA363EDADB0492C86C13153 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FE3DE2549472455FA27D4676 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -105,233 +105,233 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		178DF4B77AB9458F94AF8244 /* PBXContainerItemProxy */ = {
+		0C5550F5BA98437EBE7ED66D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E66942CACFB343159EE06DBC /* Project object */;
+			containerPortal = 6F190854E6E74D75A92F77AD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3230687D73784D169886A35C;
+			remoteGlobalIDString = 2C545CEED17841919A90804A;
+			remoteInfo = ALL_BUILD;
+		};
+		11B154C842844F678D127908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F190854E6E74D75A92F77AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261A49B5FCBE4B37805A4EA8;
 			remoteInfo = djinni;
 		};
-		238814A8AFD947F5AA4205D7 /* PBXContainerItemProxy */ = {
+		13118FCE80E448D093712CEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E66942CACFB343159EE06DBC /* Project object */;
+			containerPortal = 6F190854E6E74D75A92F77AD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 66EDD93C2C64446AA9CE7E7C;
+			remoteGlobalIDString = 6ED0EE84AB644835AA9CF803;
 			remoteInfo = DjinniCmakeExample;
 		};
-		50A4B2623AED4E6C90222BA7 /* PBXContainerItemProxy */ = {
+		8DFF4940A86F489CA41F6C36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E66942CACFB343159EE06DBC /* Project object */;
+			containerPortal = 6F190854E6E74D75A92F77AD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3230687D73784D169886A35C;
-			remoteInfo = djinni;
-		};
-		663031F441BF4016B9D13C4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E66942CACFB343159EE06DBC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A1A3C1AA66844F6BFD78F2A;
+			remoteGlobalIDString = 2AE7DC6E38FF433D8E4264A1;
 			remoteInfo = ZERO_CHECK;
 		};
-		C176D82C7AC34768A42327A2 /* PBXContainerItemProxy */ = {
+		E4CB0597574C459589876D77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E66942CACFB343159EE06DBC /* Project object */;
+			containerPortal = 6F190854E6E74D75A92F77AD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D0202227013D4850A36C3337;
-			remoteInfo = ALL_BUILD;
+			remoteGlobalIDString = 261A49B5FCBE4B37805A4EA8;
+			remoteInfo = djinni;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F89ACAC393491EA72C96E0 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DCHelloWorld.h; path = "generated-src/objc/DCHelloWorld.h"; sourceTree = SOURCE_ROOT; };
-		0C73A777EA8845C9921AE569 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIError.mm; path = "deps/djinni/support-lib/objc/DJIError.mm"; sourceTree = SOURCE_ROOT; };
-		14588A4CE46244138B8084A0 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		1EADA8DD53FC494A9D6FD90D /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIMarshal+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h"; sourceTree = SOURCE_ROOT; };
-		22CC9A63528C4685ACDA71B3 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/djinni_common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = djinni_common.hpp; path = "deps/djinni/include/djinni/support-lib/djinni_common.hpp"; sourceTree = SOURCE_ROOT; };
-		2BD7251EB59A4A2F8B7E95CE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		39F044C95E7F4F68A15DEFB4 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIProxyCaches.mm; path = "deps/djinni/support-lib/objc/DJIProxyCaches.mm"; sourceTree = SOURCE_ROOT; };
-		3D3CF27DD1C94796951E78B5 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIError.mm; path = "deps/djinni/support-lib/objc/DJIError.mm"; sourceTree = SOURCE_ROOT; };
-		500E75AC92C543B68F37D3E1 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJICppWrapperCache+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
-		5027A513050C471DA0B36949 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIProxyCaches.mm; path = "deps/djinni/support-lib/objc/DJIProxyCaches.mm"; sourceTree = SOURCE_ROOT; };
-		50DFDB21D8D6470983F22B29 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ios_project/DjinniCmakeExampleiOS/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		638F8A415813413EA3EDD2F3 /* DjinniCmakeExample */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDjinniCmakeExample.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		670EEF1B00624B20A656E992 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = deps/djinni/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		7DD1B68506664DC8AA0FBE79 /* djinni */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = djinni.framework/djinni; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		86793197585346A9A2E92466 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DJIError.h; path = "deps/djinni/include/djinni/support-lib/objc/DJIError.h"; sourceTree = SOURCE_ROOT; };
-		87700F1DD7104428A8AD478E /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/proxy_cache_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = proxy_cache_impl.hpp; path = "deps/djinni/support-lib/proxy_cache_impl.hpp"; sourceTree = SOURCE_ROOT; };
-		87877579843849B99E61C486 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIMarshal+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h"; sourceTree = SOURCE_ROOT; };
-		A4FCD94FE426432995F48562 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/cpp/HelloWorld.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = HelloWorld.hpp; path = "generated-src/cpp/HelloWorld.hpp"; sourceTree = SOURCE_ROOT; };
-		A6E0296793064AF9AF740197 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIObjcWrapperCache+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
-		B24A1F32D456431AB770CCAE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJICppWrapperCache+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
-		B6618817FCD94D6CB4CA626A /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "DCHelloWorld+Private.mm"; path = "generated-src/objc/DCHelloWorld+Private.mm"; sourceTree = SOURCE_ROOT; };
-		C5C44F56A4944C74964F8941 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = proxy_cache_interface.hpp; path = "deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp"; sourceTree = SOURCE_ROOT; };
-		CA9FAB27361B40A7B31152DE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DCHelloWorld+Private.h"; path = "generated-src/objc/DCHelloWorld+Private.h"; sourceTree = SOURCE_ROOT; };
-		D9F689DAC7EF4FC88BB2861B /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIObjcWrapperCache+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
-		E27ABC18DA0346DB9A4594C9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DJIError.h; path = "deps/djinni/include/djinni/support-lib/objc/DJIError.h"; sourceTree = SOURCE_ROOT; };
+		010D072B434F4E6699285151 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/proxy_cache_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = proxy_cache_impl.hpp; path = "deps/djinni/support-lib/proxy_cache_impl.hpp"; sourceTree = SOURCE_ROOT; };
+		0170AF615C5A43CC80B305E8 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIObjcWrapperCache+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
+		054777FD2DB94FB19B2E28EF /* djinni */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = djinni.framework/djinni; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A003591296449AAC287F5B /* DjinniCmakeExample */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDjinniCmakeExample.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CB2E51D5AE4D2D90D6BCDC /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIProxyCaches.mm; path = "deps/djinni/support-lib/objc/DJIProxyCaches.mm"; sourceTree = SOURCE_ROOT; };
+		2790ABDB4C04478BA78D9DB7 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = proxy_cache_interface.hpp; path = "deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp"; sourceTree = SOURCE_ROOT; };
+		2CD4FBE76946487192BECB4E /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJICppWrapperCache+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
+		2EE82CE993794C5B8199528A /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIProxyCaches.mm; path = "deps/djinni/support-lib/objc/DJIProxyCaches.mm"; sourceTree = SOURCE_ROOT; };
+		369CAD594E884F27B6767611 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJICppWrapperCache+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
+		39B13CDAF77541D8A157BACF /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DJIError.h; path = "deps/djinni/include/djinni/support-lib/objc/DJIError.h"; sourceTree = SOURCE_ROOT; };
+		5C7DDB81D9844A9BBE310951 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		736D392ECCBA49CD8AB88AA3 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIMarshal+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h"; sourceTree = SOURCE_ROOT; };
+		7C3451C93DEE438BBE2716C9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIError.mm; path = "deps/djinni/support-lib/objc/DJIError.mm"; sourceTree = SOURCE_ROOT; };
+		823AA5F6E3C1450592DC1177 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIObjcWrapperCache+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1FD8467CCA14D73A36B36D7 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ios_project/DjinniCmakeExampleiOS/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A41A10E2D64F4D0895EFF688 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = deps/djinni/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A64960329C6B402B82461F44 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIError.mm; path = "deps/djinni/support-lib/objc/DJIError.mm"; sourceTree = SOURCE_ROOT; };
+		A928FBE73F9A42DE8EED9FC1 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/djinni_common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = djinni_common.hpp; path = "deps/djinni/include/djinni/support-lib/djinni_common.hpp"; sourceTree = SOURCE_ROOT; };
+		ACD3FCAB376D42189EBF35E9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/cpp/HelloWorld.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = HelloWorld.hpp; path = "generated-src/cpp/HelloWorld.hpp"; sourceTree = SOURCE_ROOT; };
+		AEA41F1ECD43412681C5FDFF /* /Users/bruno.coelho/Developer/DjinniCmakeExample/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B96AB3F11A824163BB678DE5 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIMarshal+Private.h"; path = "deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h"; sourceTree = SOURCE_ROOT; };
+		DDD21E2E9AA448B5ADB32575 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DCHelloWorld.h; path = "generated-src/objc/DCHelloWorld.h"; sourceTree = SOURCE_ROOT; };
+		EA0CD0BDE1FC4B748B723C1F /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DCHelloWorld+Private.h"; path = "generated-src/objc/DCHelloWorld+Private.h"; sourceTree = SOURCE_ROOT; };
+		F217BDD3579D4D19806B16DF /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DJIError.h; path = "deps/djinni/include/djinni/support-lib/objc/DJIError.h"; sourceTree = SOURCE_ROOT; };
+		F72AA8548B3B4BF7B1F7F21A /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "DCHelloWorld+Private.mm"; path = "generated-src/objc/DCHelloWorld+Private.mm"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		10821ED3E9FC4E0A8F81F8BC /* djinni */ = {
+		0113142F96BE46AFA90CA2BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FE0D3285A0241E1BEC7F47C /* Header Files */,
-				623B4C179B5F4AC6BF5871E0 /* Source Files */,
-				670EEF1B00624B20A656E992 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/CMakeLists.txt */,
+				054777FD2DB94FB19B2E28EF /* djinni */,
+				10A003591296449AAC287F5B /* DjinniCmakeExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AA5776EF66849FA98802DF9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C3451C93DEE438BBE2716C9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */,
+				2EE82CE993794C5B8199528A /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */,
+				F72AA8548B3B4BF7B1F7F21A /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.mm */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		13E8543D658F41C7BAB5C530 /* djinni */ = {
+			isa = PBXGroup;
+			children = (
+				55AF24BBAA0B4E9289D5F550 /* Header Files */,
+				2FE6027F6B1D431EB7449C40 /* Source Files */,
+				A41A10E2D64F4D0895EFF688 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/CMakeLists.txt */,
 			);
 			name = djinni;
 			sourceTree = "<group>";
 		};
-		12334EAC8BAD48DBA771B2BB /* DjinniCmakeExample */ = {
+		2FE6027F6B1D431EB7449C40 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				979D95864895409CBFF62CEC /* Source Files */,
-				BA43DBDC2E2A42C5B88C18A5 /* Header Files */,
-				50DFDB21D8D6470983F22B29 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/CMakeLists.txt */,
-			);
-			name = DjinniCmakeExample;
-			sourceTree = "<group>";
-		};
-		46E77B476FEE45EE8D64BBB2 = {
-			isa = PBXGroup;
-			children = (
-				4987091319DD432AA671B3D2 /* Sources */,
-				A7B656B8683442ACBEAB5DF7 /* Resources */,
-				D7E2D6C70B5B44ED8AAD5441 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		4987091319DD432AA671B3D2 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				7FB9B76D294B422690949B54 /* ALL_BUILD */,
-				57523BE23AF54898B2094442 /* ZERO_CHECK */,
-				10821ED3E9FC4E0A8F81F8BC /* djinni */,
-				12334EAC8BAD48DBA771B2BB /* DjinniCmakeExample */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		57523BE23AF54898B2094442 /* ZERO_CHECK */ = {
-			isa = PBXGroup;
-			children = (
-				7C9F2C04BEA44C92B382E799 /* CMake Rules */,
-				14588A4CE46244138B8084A0 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/CMakeLists.txt */,
-			);
-			name = ZERO_CHECK;
-			sourceTree = "<group>";
-		};
-		623B4C179B5F4AC6BF5871E0 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D3CF27DD1C94796951E78B5 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */,
-				5027A513050C471DA0B36949 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */,
+				A64960329C6B402B82461F44 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */,
+				19CB2E51D5AE4D2D90D6BCDC /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		7BF6516E51924FBB8A404038 /* CMake Rules */ = {
+		55AF24BBAA0B4E9289D5F550 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		7C9F2C04BEA44C92B382E799 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		7FB9B76D294B422690949B54 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				7BF6516E51924FBB8A404038 /* CMake Rules */,
-				2BD7251EB59A4A2F8B7E95CE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		979D95864895409CBFF62CEC /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				0C73A777EA8845C9921AE569 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */,
-				39F044C95E7F4F68A15DEFB4 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */,
-				B6618817FCD94D6CB4CA626A /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.mm */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		9FE0D3285A0241E1BEC7F47C /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				22CC9A63528C4685ACDA71B3 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/djinni_common.hpp */,
-				B24A1F32D456431AB770CCAE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */,
-				E27ABC18DA0346DB9A4594C9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */,
-				1EADA8DD53FC494A9D6FD90D /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */,
-				D9F689DAC7EF4FC88BB2861B /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */,
-				C5C44F56A4944C74964F8941 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp */,
-				87700F1DD7104428A8AD478E /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/proxy_cache_impl.hpp */,
+				A928FBE73F9A42DE8EED9FC1 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/djinni_common.hpp */,
+				369CAD594E884F27B6767611 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */,
+				F217BDD3579D4D19806B16DF /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */,
+				B96AB3F11A824163BB678DE5 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */,
+				823AA5F6E3C1450592DC1177 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */,
+				2790ABDB4C04478BA78D9DB7 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp */,
+				010D072B434F4E6699285151 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/proxy_cache_impl.hpp */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		A7B656B8683442ACBEAB5DF7 /* Resources */ = {
+		636C2742E7A947A894DE837B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6DE12387DF634DC8AA428862 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				CF4B88B29061480DA99861DA /* CMake Rules */,
+				5C7DDB81D9844A9BBE310951 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A70C3799835E454889F6EF53 /* DjinniCmakeExample */ = {
+			isa = PBXGroup;
+			children = (
+				0AA5776EF66849FA98802DF9 /* Source Files */,
+				ABFE4209A10848D2A2BF1920 /* Header Files */,
+				A1FD8467CCA14D73A36B36D7 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/CMakeLists.txt */,
+			);
+			name = DjinniCmakeExample;
+			sourceTree = "<group>";
+		};
+		A8F8C0C4D3094062BA474B16 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				636C2742E7A947A894DE837B /* CMake Rules */,
+				AEA41F1ECD43412681C5FDFF /* /Users/bruno.coelho/Developer/DjinniCmakeExample/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		ABFE4209A10848D2A2BF1920 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD4FBE76946487192BECB4E /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */,
+				39B13CDAF77541D8A157BACF /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */,
+				736D392ECCBA49CD8AB88AA3 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */,
+				0170AF615C5A43CC80B305E8 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */,
+				ACD3FCAB376D42189EBF35E9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/cpp/HelloWorld.hpp */,
+				EA0CD0BDE1FC4B748B723C1F /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.h */,
+				DDD21E2E9AA448B5ADB32575 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CEE6647CE7714C7DA3C4DC71 = {
+			isa = PBXGroup;
+			children = (
+				FBF1B725B5C942588432A312 /* Sources */,
+				CEEF9752ECBB4029890EF75D /* Resources */,
+				0113142F96BE46AFA90CA2BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEF9752ECBB4029890EF75D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		BA43DBDC2E2A42C5B88C18A5 /* Header Files */ = {
+		CF4B88B29061480DA99861DA /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				500E75AC92C543B68F37D3E1 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */,
-				86793197585346A9A2E92466 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */,
-				87877579843849B99E61C486 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */,
-				A6E0296793064AF9AF740197 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */,
-				A4FCD94FE426432995F48562 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/cpp/HelloWorld.hpp */,
-				CA9FAB27361B40A7B31152DE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.h */,
-				02F89ACAC393491EA72C96E0 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld.h */,
 			);
-			name = "Header Files";
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		D7E2D6C70B5B44ED8AAD5441 /* Products */ = {
+		FBF1B725B5C942588432A312 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7DD1B68506664DC8AA0FBE79 /* djinni */,
-				638F8A415813413EA3EDD2F3 /* DjinniCmakeExample */,
+				6DE12387DF634DC8AA428862 /* ALL_BUILD */,
+				A8F8C0C4D3094062BA474B16 /* ZERO_CHECK */,
+				13E8543D658F41C7BAB5C530 /* djinni */,
+				A70C3799835E454889F6EF53 /* DjinniCmakeExample */,
 			);
-			name = Products;
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		69DD64C2620F4EE6AFD6DBAC /* Headers */ = {
+		4B455558953D444D9FB6F45F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6551B1A8254743C78CA75129 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/djinni_common.hpp */,
-				E6A88A5604F14FAA81EED860 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */,
-				50B686AAF330403D9B5206B8 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */,
-				908EC63B83EB4F3E86EF1FEE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */,
-				7B944B9DB28640CAAAD90769 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */,
-				BA8E125EE0C246C58DF86447 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp */,
-				E734398929F14D54AFE1BFF8 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/proxy_cache_impl.hpp */,
+				407C3EDB11494DCC9177E8B1 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/djinni_common.hpp */,
+				98CCDE99765648B69D2670F9 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJICppWrapperCache+Private.h */,
+				A48CA21C219846C7B650DB58 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIError.h */,
+				99E0E753DDAD45A3B20DBA5D /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIMarshal+Private.h */,
+				E3786DA6B2ED4455BB8F4D46 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */,
+				82209BA8374348DCBB95FBA5 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/support-lib/proxy_cache_interface.hpp */,
+				2A9E15957983481B9B23935D /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/proxy_cache_impl.hpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3230687D73784D169886A35C /* djinni */ = {
+		261A49B5FCBE4B37805A4EA8 /* djinni */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E55FED0B8016446BA5DCC8ED /* Build configuration list for PBXNativeTarget "djinni" */;
+			buildConfigurationList = 3F49C5E8EC814842B144EAA8 /* Build configuration list for PBXNativeTarget "djinni" */;
 			buildPhases = (
-				69DD64C2620F4EE6AFD6DBAC /* Headers */,
-				83D0DF45ACCF4D159560C043 /* Sources */,
+				4B455558953D444D9FB6F45F /* Headers */,
+				F3BB1D3EF1394423A9278322 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -339,60 +339,60 @@
 			);
 			name = djinni;
 			productName = djinni;
-			productReference = 7DD1B68506664DC8AA0FBE79 /* djinni */;
+			productReference = 054777FD2DB94FB19B2E28EF /* djinni */;
 			productType = "com.apple.product-type.framework";
 		};
-		66EDD93C2C64446AA9CE7E7C /* DjinniCmakeExample */ = {
+		6ED0EE84AB644835AA9CF803 /* DjinniCmakeExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F85592F879D4FDE90A5255B /* Build configuration list for PBXNativeTarget "DjinniCmakeExample" */;
+			buildConfigurationList = A9F2C63CF8C646E68CF29F30 /* Build configuration list for PBXNativeTarget "DjinniCmakeExample" */;
 			buildPhases = (
-				D6000E8924314057A4AA6821 /* Sources */,
+				19013811CF4840999528B967 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				920655684DAB416D9079642D /* PBXTargetDependency */,
+				91639F28AED7466DB5AD8B31 /* PBXTargetDependency */,
 			);
 			name = DjinniCmakeExample;
 			productName = DjinniCmakeExample;
-			productReference = 638F8A415813413EA3EDD2F3 /* DjinniCmakeExample */;
+			productReference = 10A003591296449AAC287F5B /* DjinniCmakeExample */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E66942CACFB343159EE06DBC /* Project object */ = {
+		6F190854E6E74D75A92F77AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0730;
 			};
-			buildConfigurationList = AC3E225CD3F44F35B8D4D66E /* Build configuration list for PBXProject "djinnicmakeexample_all" */;
+			buildConfigurationList = AC09A13D7522493EBDB2ECDD /* Build configuration list for PBXProject "djinnicmakeexample_all" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				3E7C597A54FC4052BB09A468 /* Debug */,
-				40701ECAC2D943E0837E19FB /* Release */,
-				9CDC10560A7B4EE4B7AF741F /* MinSizeRel */,
-				FE56CC238232498D8286CF4A /* RelWithDebInfo */,
+				EAA363EDADB0492C86C13153 /* Debug */,
+				16E1B72C63934AD5A1640124 /* Release */,
+				BA721BB284DF4F29997F2117 /* MinSizeRel */,
+				FE3DE2549472455FA27D4676 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 46E77B476FEE45EE8D64BBB2;
+			mainGroup = CEE6647CE7714C7DA3C4DC71;
 			projectDirPath = ../../../../;
 			projectRoot = "";
 			targets = (
-				D0202227013D4850A36C3337 /* ALL_BUILD */,
-				1A1A3C1AA66844F6BFD78F2A /* ZERO_CHECK */,
-				3434DDB9682B43CF81B48751 /* install */,
-				3230687D73784D169886A35C /* djinni */,
-				66EDD93C2C64446AA9CE7E7C /* DjinniCmakeExample */,
+				2C545CEED17841919A90804A /* ALL_BUILD */,
+				2AE7DC6E38FF433D8E4264A1 /* ZERO_CHECK */,
+				C2F83AFEC5D143E58DD7D935 /* install */,
+				261A49B5FCBE4B37805A4EA8 /* djinni */,
+				6ED0EE84AB644835AA9CF803 /* DjinniCmakeExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E8AC78E22D748A691891333 = {
+		740711D6E85C44308F67D4AC = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,48 +407,7 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		3464EE61BF9A472C926E4ED3 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64 -f /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		5BE310952488479393B9307B = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		ABCDAE6C9E694F4BB499A3F2 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		B4FE7CA0CF6842A2943C9EC9 /* CMake PostBuild Rules */ = {
+		79536F6FF98D42C5B8A974CF /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -459,7 +418,48 @@ exit 0";
 			shellScript = "make -C /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64 -f /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		C9C8F427C67143E180E4A1D0 /* CMake Rules */ = {
+		7A01A9C88BDE444E95DBFDE9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D706E0CACC6442429BD3196A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64 -f /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D7835C18E6CD4A00A8738FC9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F2F74EC585E648F0AD1AC6AC /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -473,91 +473,57 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		83D0DF45ACCF4D159560C043 /* Sources */ = {
+		19013811CF4840999528B967 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7F4008F1E741388F276FBD /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */,
-				9AF0BF70E360491980A51E8B /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */,
+				CC3209CC9E0548198FD38264 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */,
+				45817701A8A14BA8A497FEBE /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */,
+				8715062F73AF43B8956B8A6D /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.mm */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6000E8924314057A4AA6821 /* Sources */ = {
+		F3BB1D3EF1394423A9278322 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				543A66C64C2E42DCAD0C1361 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */,
-				26F28A16E7224EFF89BCA356 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */,
-				7A0EFD786C1445A0B7EDDD9B /* /Users/bruno.coelho/Developer/DjinniCmakeExample/generated-src/objc/DCHelloWorld+Private.mm */,
+				9EB0EA978D9C44C3B72E0316 /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIError.mm */,
+				1EF3190998884FDF896B125E /* /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/support-lib/objc/DJIProxyCaches.mm */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		134B9AFF6E854F69B6B80D6E /* PBXTargetDependency */ = {
+		91639F28AED7466DB5AD8B31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D0202227013D4850A36C3337 /* ALL_BUILD */;
-			targetProxy = C176D82C7AC34768A42327A2 /* PBXContainerItemProxy */;
+			target = 261A49B5FCBE4B37805A4EA8 /* djinni */;
+			targetProxy = 11B154C842844F678D127908 /* PBXContainerItemProxy */;
 		};
-		41FFCC51A34947D79876705B /* PBXTargetDependency */ = {
+		A22023D71DB1489AAF872452 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 66EDD93C2C64446AA9CE7E7C /* DjinniCmakeExample */;
-			targetProxy = 238814A8AFD947F5AA4205D7 /* PBXContainerItemProxy */;
+			target = 261A49B5FCBE4B37805A4EA8 /* djinni */;
+			targetProxy = E4CB0597574C459589876D77 /* PBXContainerItemProxy */;
 		};
-		550337E32BBD448E8F943412 /* PBXTargetDependency */ = {
+		D08CE806533A45B495CE7E59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3230687D73784D169886A35C /* djinni */;
-			targetProxy = 50A4B2623AED4E6C90222BA7 /* PBXContainerItemProxy */;
+			target = 2AE7DC6E38FF433D8E4264A1 /* ZERO_CHECK */;
+			targetProxy = 8DFF4940A86F489CA41F6C36 /* PBXContainerItemProxy */;
 		};
-		920655684DAB416D9079642D /* PBXTargetDependency */ = {
+		E5E0FD296C7D4F7DABCAE67A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3230687D73784D169886A35C /* djinni */;
-			targetProxy = 178DF4B77AB9458F94AF8244 /* PBXContainerItemProxy */;
+			target = 6ED0EE84AB644835AA9CF803 /* DjinniCmakeExample */;
+			targetProxy = 13118FCE80E448D093712CEF /* PBXContainerItemProxy */;
 		};
-		E74D2FCCC59A4FB4A7F29B15 /* PBXTargetDependency */ = {
+		ED6DF5548B72445781AA9E3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A1A3C1AA66844F6BFD78F2A /* ZERO_CHECK */;
-			targetProxy = 663031F441BF4016B9D13C4E /* PBXContainerItemProxy */;
+			target = 2C545CEED17841919A90804A /* ALL_BUILD */;
+			targetProxy = 0C5550F5BA98437EBE7ED66D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		050E1AE1D74E4FF09897344A /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = x86_64;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/MinSizeRel;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_VERSION = A;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", djinni_EXPORTS, );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
-				INFOPLIST_FILE = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni/CMakeFiles/djinni.dir/Info.plist;
-				INSTALL_PATH = "@rpath";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
-				OTHER_LDFLAGS = "  ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = djinni;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		0F3D06B4149542128BEB583E /* RelWithDebInfo */ = {
+		056E40FCFBE14B158F208B65 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
@@ -567,201 +533,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		15D9E73ECA4B41EAB89FDB6B /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = x86_64;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk;
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/build;
-			};
-			name = MinSizeRel;
-		};
-		1ED92DF1D38C42E68497FBE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = x86_64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		2576F2097CA747579B9D7EAC /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = x86_64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		31B02E5D77564D268BC86B55 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = x86_64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/MinSizeRel;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/cpp", "/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/objc", /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = DjinniCmakeExample;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/ios_project/DjinniCmakeExampleiOS;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		3913C4A142B144CFB1149144 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		3944484196824E529811E486 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = x86_64;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/Release/SIMULATOR64;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_VERSION = A;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", djinni_EXPORTS, );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
-				INFOPLIST_FILE = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni/CMakeFiles/djinni.dir/Info.plist;
-				INSTALL_PATH = "@rpath";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
-				OTHER_LDFLAGS = "  ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = djinni;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		46B88E9FDB6940A9B7ECE418 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		4C8F1C4FB0844FE9BC09C201 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = x86_64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/Release/SIMULATOR64;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/cpp", "/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/objc", /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = DjinniCmakeExample;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/ios_project/DjinniCmakeExampleiOS;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		62C31225A3434C24B8A6C08E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = x86_64;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk;
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/build;
-			};
-			name = Debug;
-		};
-		6396E1CE20284712BECFD843 /* RelWithDebInfo */ = {
+		08CD7FB254934605BF18C3F4 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
@@ -783,27 +555,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		667886B68238472EBB5B56E5 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		67B31F24E28C4ADC9C1B0AAD /* Debug */ = {
+		19028DF1FB0449B89FF2EE99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
@@ -825,7 +577,57 @@ exit 0";
 			};
 			name = Debug;
 		};
-		87A60DDD50FF4D80A4CDD436 /* RelWithDebInfo */ = {
+		37E0500ADEB5471DBA5978DD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		424D88C67C0D4DDBB12B0C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk;
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/build;
+			};
+			name = Debug;
+		};
+		4BCC4B7011DC4D18BF7A042E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		635B1948FDE646278E8FCDEC /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -845,7 +647,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		B3C95F8E8EFD407188FD932C /* Release */ = {
+		65DDCB1152054A85AD2A3667 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -857,74 +659,20 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Release;
+			name = Debug;
 		};
-		B9AC2B619E654F9795FF9FB3 /* RelWithDebInfo */ = {
+		80349F4F21E14147B1DB1CBE /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/RelWithDebInfo;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_VERSION = A;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", djinni_EXPORTS, );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
-				INFOPLIST_FILE = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni/CMakeFiles/djinni.dir/Info.plist;
-				INSTALL_PATH = "@rpath";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
-				OTHER_LDFLAGS = "  ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = djinni;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		C542D854E34C4F5A86FBC491 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		C9522AD9D40D4DDCA7052536 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = x86_64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/Debug/SIMULATOR64;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -945,9 +693,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Debug;
+			name = RelWithDebInfo;
 		};
-		CF310BD90296429CAC4049D8 /* Debug */ = {
+		81DB45A6613F46989FEDE223 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -965,19 +713,37 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Debug;
+			name = Release;
 		};
-		D5C79C2ADF6B459BBDB55573 /* Release */ = {
+		832F9322FD214F68B9D20B3B /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk;
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/build;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/cpp", "/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/objc", /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = DjinniCmakeExample;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/ios_project/DjinniCmakeExampleiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		DC7ECEC53AE94C2F81ED5AC3 /* Debug */ = {
+		8898A12FE76E45F3AD4E1C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
@@ -1011,7 +777,235 @@ exit 0";
 			};
 			name = Debug;
 		};
-		EFBF6C66979F4C40A6937005 /* Debug */ = {
+		95B1FA73D66A4D3FA4EC6F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk;
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/build;
+			};
+			name = Release;
+		};
+		95EFC2DBA7394BB0BC1F5EB6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		B20B99411116449CA75B0805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		B32841CC5BA64F8E9BFDCBC4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		B9EC69C712EC45CFA22574FB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk;
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/build;
+			};
+			name = MinSizeRel;
+		};
+		BE75CE5FBE2B484DAB322DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/Release/SIMULATOR64;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/cpp", "/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/objc", /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = DjinniCmakeExample;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/ios_project/DjinniCmakeExampleiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		C8A7781D0E814290A6780FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		DED2E90B26A444DCAB41161E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/MinSizeRel;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", djinni_EXPORTS, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
+				INFOPLIST_FILE = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni/CMakeFiles/djinni.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
+				OTHER_LDFLAGS = "  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = djinni;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		E16E7BCB496C46459B2AF25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/Debug/SIMULATOR64;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/cpp", "/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/objc", /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = DjinniCmakeExample;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/ios_project/DjinniCmakeExampleiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		E5B57609E4BB440280D77FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/Release/SIMULATOR64;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", djinni_EXPORTS, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
+				INFOPLIST_FILE = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni/CMakeFiles/djinni.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
+				OTHER_LDFLAGS = "  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = djinni;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		FC8DE75021CB46C7B0437B6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1031,29 +1025,35 @@ exit 0";
 			};
 			name = Debug;
 		};
-		F99E6FE5370546299CDB326B /* RelWithDebInfo */ = {
+		FFCF73C615F54ADDB609DD41 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/RelWithDebInfo;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", djinni_EXPORTS, );
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/cpp", "/Users/bruno.coelho/Developer/DjinniCmakeExample/ios_project/DjinniCmakeExampleiOS/../../generated-src/objc", /Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
+				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include, );
+				INFOPLIST_FILE = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni/CMakeFiles/djinni.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall -fobjc-arc  ";
-				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_LDFLAGS = "  ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = DjinniCmakeExample;
+				PRODUCT_NAME = djinni;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/ios_project/DjinniCmakeExampleiOS;
+				SYMROOT = /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/build/ios/SIMULATOR64/deps/djinni;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
@@ -1062,73 +1062,73 @@ exit 0";
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F85592F879D4FDE90A5255B /* Build configuration list for PBXNativeTarget "DjinniCmakeExample" */ = {
+		3F49C5E8EC814842B144EAA8 /* Build configuration list for PBXNativeTarget "djinni" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9522AD9D40D4DDCA7052536 /* Debug */,
-				4C8F1C4FB0844FE9BC09C201 /* Release */,
-				31B02E5D77564D268BC86B55 /* MinSizeRel */,
-				F99E6FE5370546299CDB326B /* RelWithDebInfo */,
+				8898A12FE76E45F3AD4E1C28 /* Debug */,
+				E5B57609E4BB440280D77FA4 /* Release */,
+				DED2E90B26A444DCAB41161E /* MinSizeRel */,
+				FFCF73C615F54ADDB609DD41 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		AC3E225CD3F44F35B8D4D66E /* Build configuration list for PBXProject "djinnicmakeexample_all" */ = {
+		48B48B4151E24586A7A100AD /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62C31225A3434C24B8A6C08E /* Debug */,
-				D5C79C2ADF6B459BBDB55573 /* Release */,
-				15D9E73ECA4B41EAB89FDB6B /* MinSizeRel */,
-				0F3D06B4149542128BEB583E /* RelWithDebInfo */,
+				19028DF1FB0449B89FF2EE99 /* Debug */,
+				C8A7781D0E814290A6780FC0 /* Release */,
+				B32841CC5BA64F8E9BFDCBC4 /* MinSizeRel */,
+				08CD7FB254934605BF18C3F4 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C368DD2A8AC545FBBF4DA0D1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		7E6249A2705143B2AC790E01 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF310BD90296429CAC4049D8 /* Debug */,
-				3913C4A142B144CFB1149144 /* Release */,
-				667886B68238472EBB5B56E5 /* MinSizeRel */,
-				46B88E9FDB6940A9B7ECE418 /* RelWithDebInfo */,
+				65DDCB1152054A85AD2A3667 /* Debug */,
+				81DB45A6613F46989FEDE223 /* Release */,
+				95EFC2DBA7394BB0BC1F5EB6 /* MinSizeRel */,
+				37E0500ADEB5471DBA5978DD /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C561F22165934F33AD082E50 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		95A5BE57BD28482F86553B77 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67B31F24E28C4ADC9C1B0AAD /* Debug */,
-				1ED92DF1D38C42E68497FBE3 /* Release */,
-				2576F2097CA747579B9D7EAC /* MinSizeRel */,
-				6396E1CE20284712BECFD843 /* RelWithDebInfo */,
+				FC8DE75021CB46C7B0437B6A /* Debug */,
+				B20B99411116449CA75B0805 /* Release */,
+				4BCC4B7011DC4D18BF7A042E /* MinSizeRel */,
+				635B1948FDE646278E8FCDEC /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E2FD679AAA204F8EA309BFF5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		A9F2C63CF8C646E68CF29F30 /* Build configuration list for PBXNativeTarget "DjinniCmakeExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFBF6C66979F4C40A6937005 /* Debug */,
-				B3C95F8E8EFD407188FD932C /* Release */,
-				C542D854E34C4F5A86FBC491 /* MinSizeRel */,
-				87A60DDD50FF4D80A4CDD436 /* RelWithDebInfo */,
+				E16E7BCB496C46459B2AF25C /* Debug */,
+				BE75CE5FBE2B484DAB322DED /* Release */,
+				832F9322FD214F68B9D20B3B /* MinSizeRel */,
+				80349F4F21E14147B1DB1CBE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E55FED0B8016446BA5DCC8ED /* Build configuration list for PBXNativeTarget "djinni" */ = {
+		AC09A13D7522493EBDB2ECDD /* Build configuration list for PBXProject "djinnicmakeexample_all" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC7ECEC53AE94C2F81ED5AC3 /* Debug */,
-				3944484196824E529811E486 /* Release */,
-				050E1AE1D74E4FF09897344A /* MinSizeRel */,
-				B9AC2B619E654F9795FF9FB3 /* RelWithDebInfo */,
+				424D88C67C0D4DDBB12B0C62 /* Debug */,
+				95B1FA73D66A4D3FA4EC6F77 /* Release */,
+				B9EC69C712EC45CFA22574FB /* MinSizeRel */,
+				056E40FCFBE14B158F208B65 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E66942CACFB343159EE06DBC /* Project object */;
+	rootObject = 6F190854E6E74D75A92F77AD /* Project object */;
 }

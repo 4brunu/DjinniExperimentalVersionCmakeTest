@@ -6,7 +6,7 @@ package com.example.djinnicmakeexample;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public abstract class HelloWorld {
-    public abstract void hello();
+    public abstract String getHelloString();
 
     public static native HelloWorld create();
 
@@ -34,11 +34,11 @@ public abstract class HelloWorld {
         }
 
         @Override
-        public void hello()
+        public String getHelloString()
         {
             assert !this.destroyed.get() : "trying to use a destroyed object";
-            native_hello(this.nativeRef);
+            return native_getHelloString(this.nativeRef);
         }
-        private native void native_hello(long _nativeRef);
+        private native String native_getHelloString(long _nativeRef);
     }
 }
