@@ -29,45 +29,41 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/Debug/SIMULATOR64/djinni.framework" USE_SOURCE_PERMISSIONS)
-    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni" AND
-       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/Debug/SIMULATOR64/libdjinni.dylib")
+    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib" AND
+       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib")
       execute_process(COMMAND "/usr/bin/install_name_tool"
-        -id "djinni.framework/djinni"
-        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni")
+        -id "libdjinni.dylib"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib")
     endif()
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/Release/SIMULATOR64/djinni.framework" USE_SOURCE_PERMISSIONS)
-    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni" AND
-       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/Release/SIMULATOR64/libdjinni.dylib")
+    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib" AND
+       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib")
       execute_process(COMMAND "/usr/bin/install_name_tool"
-        -id "djinni.framework/djinni"
-        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni")
+        -id "libdjinni.dylib"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib")
     endif()
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/MinSizeRel/djinni.framework" USE_SOURCE_PERMISSIONS)
-    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni" AND
-       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/MinSizeRel/libdjinni.dylib")
+    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib" AND
+       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib")
       execute_process(COMMAND "/usr/bin/install_name_tool"
-        -id "djinni.framework/djinni"
-        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni")
+        -id "libdjinni.dylib"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib")
     endif()
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/RelWithDebInfo/djinni.framework" USE_SOURCE_PERMISSIONS)
-    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni" AND
-       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/bin/ios/RelWithDebInfo/libdjinni.dylib")
+    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib" AND
+       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib")
       execute_process(COMMAND "/usr/bin/install_name_tool"
-        -id "djinni.framework/djinni"
-        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/djinni")
+        -id "libdjinni.dylib"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdjinni.dylib")
     endif()
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/djinni.framework/Header" TYPE DIRECTORY FILES "/Users/bruno.coelho/Developer/DjinniCmakeExample/deps/djinni/include/djinni/")
 endif()
 

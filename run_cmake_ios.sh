@@ -50,7 +50,7 @@ done
 
 STATIC_LIBRARIES=($(ls "cmake/bin/ios/${BUILD_TYPES[0]}/${ABIs[0]}/"))
 
-Put all librarues in the fat file.
+#Put all librarues in the fat file.
 echo "Create FAT library!"
 
 for BUILD_TYPE in "${BUILD_TYPES[@]}"

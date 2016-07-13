@@ -1,5 +1,4 @@
-/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/djinni.framework/djinni
-/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/djinni.framework/Info.plist
+/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/libdjinni.dylib
 /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/include/djinni/support-lib/djinni_common.hpp
 /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/include/djinni/support-lib/jni/djinni_support.hpp
 /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/include/djinni/support-lib/jni/Marshal.hpp
@@ -8,11 +7,3 @@
 /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/include/djinni/support-lib/objc/DJIMarshal+Private.h
 /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/include/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h
 /Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/include/djinni/support-lib/proxy_cache_interface.hpp
-/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/djinni.framework/Header/support-lib/djinni_common.hpp
-/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/djinni.framework/Header/support-lib/jni/djinni_support.hpp
-/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/djinni.framework/Header/support-lib/jni/Marshal.hpp
-/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/djinni.framework/Header/support-lib/objc/DJICppWrapperCache+Private.h
-/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/djinni.framework/Header/support-lib/objc/DJIError.h
-/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/djinni.framework/Header/support-lib/objc/DJIMarshal+Private.h
-/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/djinni.framework/Header/support-lib/objc/DJIObjcWrapperCache+Private.h
-/Users/bruno.coelho/Developer/DjinniCmakeExample/cmake/install/ios/SIMULATOR/lib/djinni.framework/Header/support-lib/proxy_cache_interface.hpp

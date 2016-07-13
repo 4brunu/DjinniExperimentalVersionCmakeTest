@@ -51,7 +51,7 @@ elseif(IOS_PLATFORM)
   set(CMAKE_XCODE_ATTRIBUTE_IPHONEOS_DEPLOYMENT_TARGET "8.0")
 
   set(DJINNI_WITH_OBJC ON CACHE BOOL "Include the Objective-C support code in Djinni.")
-  set(DJINNI_FRAMEWORK ON CACHE BOOL "If enabled the Objective-C binary of Djinni is built as djinni.framework otherwise as djinni.dylib on Apple systems.")
+  set(DJINNI_FRAMEWORK OFF CACHE BOOL "If enabled the Objective-C binary of Djinni is built as djinni.framework otherwise as djinni.dylib on Apple systems.")
 
 
   # Add projects.
