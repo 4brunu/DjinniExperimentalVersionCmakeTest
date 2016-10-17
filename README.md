@@ -1,5 +1,7 @@
 # DjinniCmakeExample
 
+# WARNING: This sample should be used in production, because it uses an experimental version of djinni (https://github.com/mknejp/djinni/tree/a4bca83a80387c67f485a38511b884b470e3481f), and not the stable one (https://github.com/dropbox/djinni)
+
 ## How to run Cmake on iOS
 
 `sh run_cmake_ios.sh`
