@@ -1,4 +1,4 @@
-# DjinniCmakeExample
+# DjinniExperimentalVersionCmakeTest
 
 # WARNING: This sample should NOT be used in production, because it uses an experimental version of djinni (https://github.com/mknejp/djinni/tree/a4bca83a80387c67f485a38511b884b470e3481f), and not the stable one (https://github.com/dropbox/djinni). This repo is just a test to the experimental version of djinni.
 
